@@ -1,0 +1,101 @@
+body {
+  font-family: 'Ubuntu', sans-serif;
+  font-weight: 300;
+  color: rgb(10, 10,10);
+  text-align: center;
+  background: #E3B505;
+}
+
+h1 {
+  color: #E3B505;
+  font-size: 50px;
+  font-family: 'Ubuntu', sans-serif;
+  font-weight: 300
+}
+
+h2 {
+  color: #3E92CC;
+  font-size: 40px;
+  font-family: 'Ubuntu', sans-serif;
+  font-weight: 300;
+}
+
+h3 {
+  color: #3E92CC;
+  font-size: 35px;
+  font-family: 'Ubuntu', sans-serif;
+  font-weight: 300;
+}
+
+p {
+  color: white;
+  font-size: 15px;
+  font-family: 'Ubuntu', sans-serif;
+  font-weight: 10;
+}
+
+a:hover {
+  color: grey;
+  text-decoration: none;
+}
+
+a {
+  color: yellow;
+  text-decoration: none
+}
+
+#profile_part {
+ border: 1px solid rgba(0, 0, 0, 0.1);
+ background: rgb(50, 50, 50);
+ padding: 30px;
+ border-radius: 8px;
+ box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.1);
+ margin: 30px;
+ text-align: center;
+}
+
+#pix_part {
+ border: 1px solid rgba(0, 0, 0, 0.1);
+ background: rgb(50, 50, 50);
+ padding: 30px;
+ border-radius: 8px;
+ box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.1);
+ margin: 30px;
+ text-align: center;
+}
+
+#footer {
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  background: rgb(50, 50, 50);
+  padding: 30px;
+  border-radius: 8px;
+  box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.1);
+  margin: 30px;
+  text-align: center;
+  }
+
+#simon {
+  width: 200px;
+  height: 200px;
+  border-radius: 100px;
+  box-shadow: 2px 2px 3px black;
+}
+
+.container {
+  width: 800px;
+  margin: 0 auto;
+}
+
+.portfolio_pix {
+  border-radius: 0px;
+  box-shadow: 2px 2px 3px black;
+  margin-bottom: 10px;
+}
+
+.list-inline > li {
+  display: inline-block;
+}
+
+li {
+  list-style-type: none
+}
